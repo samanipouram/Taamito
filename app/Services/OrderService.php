@@ -11,9 +11,6 @@ class OrderService
     public function generatePdf($data) {
         //
         $pdf = PDF::loadView('pages.orders.inc.invoice-pdf', [
-            'font_family' => 'shabnam',
-            'direction' => 'rtl',
-            'text_align' => 'right',
             'order' => $data,
         ]);
 
