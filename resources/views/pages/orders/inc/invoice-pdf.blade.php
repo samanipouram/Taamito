@@ -100,7 +100,7 @@
     @foreach($order['items'] as $key => $item)
         <tr>
             <td>{{ $key + 1 }}</td>
-            <td>{{ $item['product_name'] }}</td>
+            <td>{{ $item['product_name'] . ' - ' . $item['combination_text'] }}</td>
             <td>{{ $item['count'] }}</td>
             <td>{{ number_format($item['price']) }}</td>
             <td>{{ number_format($item['total']) }}</td>
