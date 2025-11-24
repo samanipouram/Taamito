@@ -70,10 +70,11 @@
 <body>
 <table class="border-0">
     <tr>
-        <td>
+        <td width="25%" class="text-right">
+            تامی تو
         </td>
-        <td style="font-size: 1.5rem;text-align: center" class="strong">فاکتور فروش کالا و خدمات</td>
-        <td class="text-right">
+        <td width="50%" style="font-size: 1.5rem;text-align: center" class="strong">فاکتور فروش کالا و خدمات</td>
+        <td width="25%" class="text-left">
             <span><strong>شماره فاکتور:</strong> {{ $order['id'] }}</span>
             <br>
         </td>
